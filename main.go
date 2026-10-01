@@ -25,16 +25,19 @@ func main() {
 				switch {
 				case op == 1:
 					nombre := Arroz
+					precio := 1.25
 					foriu = false
 				case op == 2:
 					nombre := Leche
+					precio := 0.95
 					foriu = false
 				case op == 3:
 					nombre := Pan
+					precio := 0.50
 					foriu = false
 				}
 			}
-			RegistrarVenta()
+			RegistrarVenta(nombre, precio, cantidad)
 		case op == 2:
 
 		case op == 3:
